@@ -1,0 +1,21 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #555;
+}
+.quote {
+    width: 300px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    text-indent: -1.3em;
+    line-height: 1.5em;
+    margin: 1.5em;
+}
+.quote:before {
+    content: "“ ";
+    font-size: xx-large;
+    font-weight: bold;
+}
+.quote:after {
+    content: " ”";
+    font-size: xx-large;
+    font-weight: bold;
+}

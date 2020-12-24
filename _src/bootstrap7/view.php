@@ -1,0 +1,19 @@
+<?php defined('C5_EXECUTE') or die('Access Denied.') ?>
+
+<?php
+$this->inc('elements/header.php');
+?>
+
+<div class="row-fluid">
+    <div class="span12 well">
+        <?php
+        Loader::element('system_errors', array('error' => $error));
+        
+        echo $innerContent;
+        ?>                  
+    </div>  
+</div>
+
+<?php
+$this->inc('elements/footer.php');
+?>

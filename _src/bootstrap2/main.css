@@ -1,0 +1,11 @@
+.container-fluid {
+    max-width: 970px;
+}
+
+body {
+    /* customize_background */ background-color: #ffffff; /* customize_background */ 
+    /* customize_font */ font: normal normal 13px Arial; /* customize_font */
+    /* customize_miscellaneous */ /* customize_miscellaneous */
+}
+
+
